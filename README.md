@@ -26,3 +26,6 @@ In zo’n ‘post’ neem je op:
 - Wat er goed ging
 - Wat er lastig is
 - Wat je plannen zijn
+
+# 21 April voortgangs gesprek
+Ik was nog niet begonnen met de opdracht omdat ik merkte dat ik eerst wat oefening nodig had, daarvoor heb ik Sanne zijn codepen oefeningen gebruikt, deze hebben mij wel geholpen om in de flow te komen van het coderen. Ik vind het nog altijd moeilijk om de code te schrijven en ter plekke te bedenken, zelfs met de meest simpele dingen zoals een cirkel met puur CSS maken. 
