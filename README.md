@@ -29,3 +29,5 @@ In zo’n ‘post’ neem je op:
 
 # 21 April voortgangs gesprek
 Ik was nog niet begonnen met de opdracht omdat ik merkte dat ik eerst wat oefening nodig had, daarvoor heb ik Sanne zijn codepen oefeningen gebruikt, deze hebben mij wel geholpen om in de flow te komen van het coderen. Ik vind het nog altijd moeilijk om de code te schrijven en ter plekke te bedenken, zelfs met de meest simpele dingen zoals een cirkel met puur CSS maken. 
+
+Ik ben ondertussen wel begonnen met de code schrijven voor mijn instagram animatie en merk dat ik moeite heb met hoe ik het wil aanpakken. Eerst heb ik toch een beetje gespeeld met transitions en hoe ik de achtergrond zou kunnen laten overvloeien in het logo. Na een tijdje puzzelen heb ik mij bedacht dat ik beter eerst allebei de logo's compleet moet opbouwen met CSS en daarna vanuit daar de animaties proberen uit te werken. Op die manier heb ik ook altijd weer een weg terug wanneer het niet werkt. 
