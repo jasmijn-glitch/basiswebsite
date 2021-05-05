@@ -53,3 +53,6 @@ Wat ben ik nu van plan:
 - Dubbel check of alles responsive is (ook op mobiel bekijken etc). Volgensmij zit dit nu al goed maar ik moet het altijd ff dubbel checken
 - Als ik tijd over heb wil ik graag wat extra's toevoegen aan de animaties, maar hier heb ik verder nog niet overna gedacht. 
 
+# 5 Mei
+Ik heb allebei de animaties zo goed als af, en merk nu dat ik moeite heb van het finetunen van alles bij elkaar (responsive maken, positioneren ten opzichte van elkaar etc.)
+Dit heb ik bij coderen eigenlijk altijd, waardoor ik mijn motivatie verlies en ik weet niet zo goed hoe ik hier mee om moet gaan..
