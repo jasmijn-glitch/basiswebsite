@@ -1,27 +1,459 @@
-/* CSS Document */
-
-/* FONTS */
-@font-face {
-	font-family: 'eenfont';
-	src: url('../fonts/eenfont.woff2') format('woff2'),
-			 url('../fonts/eenfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-
-/* ALGEMENE STYLING */
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
-
 body {
-  font-family:eenfont, sans-serif;
-  color:#111;
-  background-color:#eee;
+    margin:auto;
+    text-align: center;
+    background-color: white;
+}
+
+*::before, *::after {
+  box-sizing:border-box;
+}
+
+:root {
+  --bright-red:#F24D1F;
+  --soft-pink:#FF7262;
+  --purple:#A15AFF;
+  --blue:#18BCFE;
+  --green:#0CCF82;
+
+  --insta-gradient-color: linear-gradient(
+    45deg,
+     #f09433 0%,
+     #e6683c 25%,
+     #dc2743 50%,
+     #cc2366 75%, 
+     #bc1888 100%);
+}
+
+/* FIGMA showcase & grid */
+
+section:first-of-type {
+  height: 300px;
+  width:480px;
+  padding: 2em;
+  overflow:hidden;
+
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50%, -50%);
+}
+
+section:first-of-type section:nth-child(1) {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50%, -50%);
 }
 
 
-/* BRAND STYLING */
+/* Alle blokjes FIGMA */
 
+@keyframes rood-blokje {
+  0% {
+    transform:translatey(-20em);
+  }
+
+  100% {
+    transform:translateX(0);
+  }
+}
+
+@keyframes rood-rondje {
+  0% {
+    border-radius: 0%;
+  }
+
+  100% {
+    border-radius: 50% 0 0 50%;
+}
+}
+
+section:first-of-type span:first-of-type {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: var(--bright-red);
+
+  animation-name: rood-blokje, rood-rondje; 
+  animation-duration: 3s, 1.5s;
+  animation-delay: 0s, 3s;
+  animation-fill-mode: forwards;
+  }
+
+
+  @keyframes roze-blokje {
+    0% {
+      transform:translatex(20em);
+    }
+  
+    100% {
+      transform:translateX(0);
+    }
+  }
+  
+  @keyframes roze-rondje {
+    0% {
+      border-radius: 0%;
+    }
+  
+    100% {
+      border-radius: 0 50% 50% 0;
+  }
+  }
+
+  section:first-of-type span:nth-of-type(2) {
+  grid-column: 2;
+  grid-row: 1;
+  background-color:var(--soft-pink);
+
+  animation-name: roze-blokje, roze-rondje; 
+  animation-duration: 3s, 1.5s;
+  animation-delay: 0s, 3s;
+  animation-fill-mode: forwards;
+  }
+
+  @keyframes paars-blokje {
+    0% {
+      transform:translatex(-20em);
+    }
+  
+    100% {
+      transform:translateX(0);
+    }
+  }
+  
+  @keyframes paars-rondje {
+    0% {
+      border-radius: 0%;
+    }
+  
+    100% {
+      border-radius: 50% 0 0 50%;
+  }
+  }
+
+  section:first-of-type span:nth-of-type(3) {
+  grid-column: 1;
+  grid-row: 2;
+  background-color:var(--purple);
+
+  animation-name: paars-blokje, paars-rondje; 
+  animation-duration: 3s, 1.5s;
+  animation-delay: 0s, 3s;
+  animation-fill-mode: forwards;
+  }
+
+  @keyframes blauw-blokje {
+    0% {
+      transform:translatey(25em);
+    }
+    
+    100% {
+      transform:translateX(0);
+    }
+  }
+  
+  @keyframes blauw-rondje {
+    0% {
+      border-radius: 0%;
+    }
+  
+    100% {
+      border-radius: 50%;
+  }
+  }
+
+  section:first-of-type span:nth-of-type(4) {
+  grid-column: 2;
+  grid-row: 2;
+  background-color:var(--blue);
+
+  animation-name: blauw-blokje, blauw-rondje; 
+  animation-duration: 3s, 1.5s;
+  animation-delay: 0s, 3s;
+  animation-fill-mode: forwards;
+  }
+
+  @keyframes groen-blokje {
+    0% {
+      transform:translatey(35em);
+    }
+    
+    100% {
+      transform:translateX(0);
+    }
+  }
+  
+  @keyframes groen-rondje {
+    0% {
+      border-radius: 0%;
+    }
+  
+    100% {
+      border-radius: 50% 0 50% 50%;
+  }
+  }
+
+  section:first-of-type span:nth-of-type(5) {
+  grid-column: 1;
+  grid-row: 3;
+  background-color:var(--green);
+
+  animation-name: groen-blokje, groen-rondje; 
+  animation-duration: 3s, 1.5s;
+  animation-delay: 0s, 3s;
+  animation-fill-mode: forwards;
+  }
+
+/* Naam animatie FIGMA */
+
+  @keyframes name-animation{
+    0% {
+      color:transparent;
+      transform:translatex(35em);
+    }
+
+    20% {
+      color:white;
+      transform:translatex(35em);
+    }
+
+    100% {
+      color:white;
+      transform:translatex(1em);
+    }
+   }
+
+   section:first-of-type h1 {
+    color: transparent;
+    font-size:4em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 .5em;
+    z-index: 10;
+
+    position: absolute;
+    top: 50px;
+    left: 180px;
+
+    animation: name-animation 4s ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  /* Small screen - FIGMA */
+
+@media all and (max-width: 480px) { 
+
+  /* Grid & showcase */
+
+  section:first-of-type {
+    height: 180px;
+    width:280px; 
+    margin:1em;
+
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50%, -50%);
+  }
+
+  section:first-of-type section:nth-child(1) {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+  } 
+
+  /* Name animation */
+
+  @keyframes name-animation{
+    0% {
+      color:transparent;
+      transform:translatex(15em);
+    }
+
+    20% {
+      color:white;
+      transform:translatex(15em);
+    }
+
+    100% {
+      color:white;
+      transform:translatex(5.5em);
+    }
+   }
+
+   section:first-of-type h1 {
+    font-size:2em;
+    padding:0;
+    margin:0;
+
+    position: absolute;
+    top: 50px;
+    left: -10px;
+
+    animation: name-animation 4s ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+}
+
+/* VANAF HIER DE CODE VOOR MIJN INSTAGRAM ANIMTATIE */
+
+/* INSTAGRAM showcase section */
+
+section:last-of-type {
+  height: 300px;
+  width:480px;
+  padding: 2em;
+  background-color: black;
+  overflow:hidden;
+
+  position: absolute;
+  top:120%;
+  left:50%;
+  transform: translate( -50%, -50%);
+}
+
+@keyframes bg-overflow {
+  0% {
+    height: 100vh;
+     width: 100vw;
+     background:var(--insta-gradient-color);
+  }
+
+  70% {
+    height: 120px;
+     width: 120px;
+  }
+
+  100% {
+    height: 120px;
+     width: 120px;
+     border-radius: 50px;
+  }
+}
+
+@keyframes insta-turn {
+
+  0%{
+    transform: translate( -50%, -50%) scaleY(1)
+  }
+    50%{
+    transform: translate( -50%, -50%) scaleY(.85)
+  }
+    100%{
+    transform: translate( -50%, -50%) scaleY(1)
+  }
+ }
+
+/* https://www.youtube.com/watch?v=ZynRtYXoo-w , ik heb dit als voorbeeld gebruikt om het logo
+op te bouwen, ik merkte dat ik daar moeite mee had */
+
+/* INSTAGRAM beeldmerk */
+section:last-of-type section:first-child {
+position: absolute;
+top:40%;
+left: 50%;
+transform: translate( -50%, -50%);
+
+background:var(--insta-gradient-color);
+
+animation-name: bg-overflow, insta-turn;
+animation-duration: 4s, .4s;
+animation-delay: 0s, 5.3s, 7.3s;
+animation-fill-mode: forwards;
+animation-timing-function: ease-in-out;
+
+}
+
+@keyframes insta-details-1 {
+  0% {}
+
+  100% {
+    height:60px;
+    width:60px;
+    border: 10px solid white;
+    border-radius:50%;
+  }
+}
+
+/* Rondje in het logo  */
+section:last-of-type section:first-child::before {
+content:"";
+position:absolute;
+top:50%;
+left:50%;
+transform: translate( -50%, -50%);
+
+animation: insta-details-1 1.3s ease-out forwards;
+animation-delay: 4s;
+}
+
+
+@keyframes insta-details-2 {
+  0% {}
+
+  100% {
+    height: 140px;
+    width: 140px;
+    border: 10px solid white;
+    border-radius:40px;
+  }
+}
+
+section:last-of-type section:first-child::after {
+  content:"";
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50%, -50%);
+
+  border-radius:40px;
+
+  background-image:radial-gradient(white .08em, white .08em .525em, transparent .525em);
+	background-size:1.5em 1.5em;
+	background-repeat:no-repeat;
+	background-position:5.1em .6em;
+
+  animation: insta-details-2 1.3s ease-out forwards;
+  animation-delay: 4s;
+}
+
+
+@keyframes name-animation-2 {
+  0% {
+    color:transparent;
+  }
+
+  70% {
+    color:transparent;
+  }
+
+  75% {
+    color:white;
+  }
+
+  100% {
+    color:white;
+  }
+ }
+
+section:last-of-type h1 {
+  color: transparent;
+    font-size:2.5em;
+    font-family: 'Oleo Script', cursive;
+
+    z-index: 10;
+
+    position: absolute;
+    top: 240px;
+    left: 190px;
+
+
+    animation: name-animation-2 4s ease-out;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
