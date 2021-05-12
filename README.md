@@ -54,5 +54,25 @@ Wat ben ik nu van plan:
 - Als ik tijd over heb wil ik graag wat extra's toevoegen aan de animaties, maar hier heb ik verder nog niet overna gedacht. 
 
 # 5 Mei
+
 Ik heb allebei de animaties zo goed als af, en merk nu dat ik moeite heb van het finetunen van alles bij elkaar (responsive maken, positioneren ten opzichte van elkaar etc.)
 Dit heb ik bij coderen eigenlijk altijd, waardoor ik mijn motivatie verlies en ik weet niet zo goed hoe ik hier mee om moet gaan..
+
+# 11 mei 
+Ik heb mijn 2 animaties laten zien, en okal was ik niet helemaal tevreden ik vind dat ik achteraf wel veel heb geleerd. Ik heb de structuur van coderen weer vanaf een ander perspectief mogen bekijken, waardoor ik het weer beter snap, maar het blijft wel lastig merk ik. Als designer ben ik altijd heel erg gefixeerd op de look en valt alles daar omheen mij soms erg zwaar. 
+
+Dit vind ik wel het leukste stukje code:
+Figma animaties vanaf verschillende hoeken laten insliden. 
+
+<img width="324" alt="Screenshot 2021-05-12 at 22 16 12" src="https://user-images.githubusercontent.com/82438075/118038642-ab343800-b36f-11eb-989c-bbb42855051d.png">
+
+Ik heb eigenlijk voor elk bolletje de zelfde opzet gebruikt en daarna met de X en Y waardes zitten spelen, toen de animatie tot leven kwam werd ik wel heel enthausiast!
+
+
+Instagram BG overflow
+
+<img width="316" alt="Screenshot 2021-05-12 at 22 17 46" src="https://user-images.githubusercontent.com/82438075/118038824-e33b7b00-b36f-11eb-978b-e84c6af05492.png">
+
+Ik vond het slim hoe ik dit had aangepakt maar ik zou het volgende keer wel op een andere manier willen doen, en ik moet nog oefenen met een animatie echt 'polishen', want gevoel heb ik er nog niet helemaal voor
+
+
