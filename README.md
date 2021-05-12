@@ -10,8 +10,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 Ik vermeld mijn gebruikte bronnen altijd in de code, en zal bronnen die mij hebben geholpen in deze lijst vermelden
-1. -bron 1-
-2. -bron 2-
+1. https://www.youtube.com/watch?v=ZynRtYXoo-w - Instagram logo opbouwen
+2. https://www.youtube.com/watch?v=zGiirUiWslI&list=PL7uWxXr2WoqC7TWZAq1Uv0e7MK-essN2y&index=10 - Vaker bekeken om before & after psuedo elementen te begrijpen!
 3. -...-
 
 
