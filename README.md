@@ -75,4 +75,11 @@ Instagram BG overflow
 
 Ik vond het slim hoe ik dit had aangepakt maar ik zou het volgende keer wel op een andere manier willen doen, en ik moet nog oefenen met een animatie echt 'polishen', want gevoel heb ik er nog niet helemaal voor
 
+# 19 mei
 
+Begin maken aan opdracht 2
+
+- Html/CSS/JS linken
+- structuur uitbedenken van de website pagina in blokjes (tekenen)
+- Basis in HTML zetten
+- Basis CSS + grid toepassen (zorg dat het meteen responsive is)
