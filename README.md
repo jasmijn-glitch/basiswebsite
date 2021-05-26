@@ -83,3 +83,39 @@ Begin maken aan opdracht 2
 - structuur uitbedenken van de website pagina in blokjes (tekenen)
 - Basis in HTML zetten
 - Basis CSS + grid toepassen (zorg dat het meteen responsive is)
+
+
+# 26 mei
+
+Dit waren vragen die ik voor het voortangsgesprek even in mijn notities had opgenomen. 
+
+- kan ik hier ook een formule van maken?
+        grid-template-rows: 360px 360px 360px 360px 360px 360px 360px 360px 360px 360px 360px;
+  
+
+To do volgende week: 
+- Menu met flexbox maken
+- Menu like button maken
+- Hover status aan knoppen toevoegen (genres, likes)
+- Active modus toevoegen aan knoppen (view modus, genres)
+- Foto’s toevoegen aan blokjes
+- Kleuren in custom variables
+
+- 2x menu (likes en genres)
+
+Vragen feedback
+Lay-over menu genre’s maken?
+- Heb je een voorbeeld
+
+<img width="276" alt="Today's tasks" src="https://user-images.githubusercontent.com/82438075/119654530-d8312200-be28-11eb-93ec-ef97e22fc60b.png">
+
+
+Viewmodes knopjes
+- Ik wilde dit met classes doen maar ik wil deze niet in me html schrijven, kan ik de class toevoegen in javascript en dan de code daarvan gewoon in css? Ik mocht geen classes gebruiken daarom vraag ik er naar
+
+
+Eigenlijk merk ik dat ik vrijwel alles snap, maar dat ik pas wanneer ik bezig ben tegen problemen aanloop en er dan ook pas wat aan kan doen. Ik heb mijzelf in iedergeval voorgenomen dat ik mijn huidige to do lijst af heb gewerkt voor volgende week woensdag zodat ik me kan focussen op micro interacties tijdens het volgende feedback moment, ik wil me dan ook inschrijven voor een 1 op 1 gesprek zodat ik samen met iemand in mijn code kan duiken.
+
+
+
+
