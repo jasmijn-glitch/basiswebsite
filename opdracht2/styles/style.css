@@ -11,10 +11,38 @@
   box-sizing:border-box;  
 }
 
+/* Custom */
+:root {
+	--bright-red:#DB0000;
+	--soft-pink:#FF7262;
+	--purple:#A15AFF;
+
+	--background-color:linear-gradient(
+    45deg,
+     #f09433 0%,
+     #e6683c 25%,
+     #dc2743 50%,
+     #cc2366 75%, 
+     #bc1888 100%);
+  }
+
 body {
 	margin:0;
 	padding:0;
 	font-family: 'Montserrat', sans-serif;
+	background-color:lightgrey;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	body {
+		background-color: dimgray;
+	}
+}
+
+img {
+	width:100%;
+	height:100%;
 }
 
 /* NAVIGATIE BAR */
@@ -24,10 +52,12 @@ nav {
 	height: 60px;
 	width:100vw;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 
-nav button {
+/* Button genres */
+
+nav button:nth-of-type(1) {
 	/* Positionering */
 	height: 2.2em;
 	max-width: 7em;
@@ -45,32 +75,47 @@ nav button {
 	font-family: 'Montserrat', sans-serif;
 }
 
-nav section::before {
-	content: "";
-	width:30px;
-	height:30px;
-	background-image: url(../images/viewmode-1.svg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
-
-	left:20px;
-	top:14px;
+nav button:nth-of-type(1):hover {
+	background-color: var(--bright-red);
+	color:white;
 }
 
-nav section::after {
-	content: "";
-	width:30px;
-	height:30px;
-	background-image: url(../images/viewmode-2.svg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	position: absolute;
+/* Button likes */
+nav button:nth-of-type(2) {
+	height:35px;
+	width:35px;
+    grid-column-start:3;
 
-	left:80px;
-	top:14px;
+	margin-top:.7em;
+	margin-left:3em;
+
+	border-radius: 50%;
+	border:none;
+	background-color:white;
+	background-image:url(../images/heart-black.svg);
+	background-repeat: no-repeat;
+    background-size: 60% 60%;
+	background-position: center center;
 }
- 
+
+nav button:nth-of-type(2):hover {
+	background-color: var(--bright-red);
+	/* verander naar wit hartje */
+	background-image:url(../images/heart-white.png);
+}
+
+nav section {
+	display: flex;
+}
+
+nav section img {
+	width:28px;
+    height:28px;
+	margin-top:.8em;
+	margin-left:1.5em;
+}
+
+/* FILMS DISPLAY - viewmode poster */
 
 ul {
 	margin:1em;
@@ -78,35 +123,45 @@ ul {
 
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 360px 360px 360px 360px;
-	grid-column-gap: 20px;
+	grid-template-rows: 360px 360px 360px;
+	grid-column-gap: 2%;
 	grid-row-gap:20px;
 }
 
 
-/* styling movie display */
+/* STYLING movie display */
+
+@keyframes movie-poster-hover {
+0% { 
+	transform: none;
+}
+
+100% {
+	transform: scaleX(2em);
+}
+
+}
+
 ul li {
 	list-style: none;
-	background-color:black;
 	border-radius: .5em;
+	overflow:hidden;
 }
 
-ul li:nth-of-type(1) {
+ul li:hover {
+	animation: movie-poster-hover .5s ease-out forwards;
 }
 
-ul li:nth-of-type(2) {
-	background-color:pink;
+@media all and (min-width: 1080px) {
+
+	ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: repeat( 3, minmax(430px, 1fr) );
+		grid-column-gap: 20px;
+		grid-row-gap:20px;
+	}
 }
-
-ul li:nth-of-type(3) {
-	background-color:blue;
-}
-
-ul li:nth-of-type(4) {
-
-	background-color:red;
-}
-
 
 @media all and (max-width: 980px) {
 
@@ -116,7 +171,8 @@ ul li:nth-of-type(4) {
 	
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 330px 330px 330px 330px 330px;
+		grid-template-rows: repeat( 4, minmax(370px, 1fr) );
+		grid-template-rows: 370px 370px 370px 370px;
 		grid-column-gap: 20px;
 		grid-row-gap:20px;
 	}
@@ -127,7 +183,7 @@ ul li:nth-of-type(4) {
 	ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 330px 330px 330px 330px 330px 330px 330px;
+		grid-template-rows: repeat( 5, minmax(350px, 1fr) );
 		grid-column-gap: 20px;
 		grid-row-gap:20px;
 	}
@@ -135,6 +191,12 @@ ul li:nth-of-type(4) {
 	nav button {
 		/* Positionering */
 		margin-left:7em;
+		margin-top:1.3em;
+
+		/* knop groote en plaatsing */
+		min-width: 5.5em;
+
+		font-size: .7em;
 	}
 
 }
@@ -144,17 +206,20 @@ ul li:nth-of-type(4) {
 	ul {
 		display: grid;
 		grid-template-columns: 1fr;
-		/* kan ik hier ook een formule van maken? */
-		grid-template-rows: 360px 360px 360px 360px 360px 360px 360px 360px 360px 360px 360px;
+		grid-template-rows: repeat( 12, minmax(450px, 1fr) );
 		grid-column-gap: 0;
-
 
 		min-width: 250px;
 	}
 
 	nav button {
 		/* Positionering */
-		margin-left:7em;
+		margin-left:5em;
+		margin-top:1.3em;
+
+		/* knop groote en plaatsing */
+		min-width: 5.5em;
+
+		font-size: .7em;
 	}
-	
 }
