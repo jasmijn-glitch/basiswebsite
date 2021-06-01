@@ -116,6 +116,27 @@ Viewmodes knopjes
 
 Eigenlijk merk ik dat ik vrijwel alles snap, maar dat ik pas wanneer ik bezig ben tegen problemen aanloop en er dan ook pas wat aan kan doen. Ik heb mijzelf in iedergeval voorgenomen dat ik mijn huidige to do lijst af heb gewerkt voor volgende week woensdag zodat ik me kan focussen op micro interacties tijdens het volgende feedback moment, ik wil me dan ook inschrijven voor een 1 op 1 gesprek zodat ik samen met iemand in mijn code kan duiken.
 
+# Gesprekje met Sanne 1 juni
+
+We hebben een aantal dingen samen gefixt en ik had wat vragen, na afloop heb ik weer een nieuw to do lijstje gemaakt voor aankomende week
+
+Dinsdag
+- Hover film poster
+- Knoppen: active status maken
+- Like knop toevoegen: positioneren, hover/focus en active modus maken
+- Teksten toevoegen (titels en intro) (10min)
+- Viewmode list css schrijven
+- Viewmodus: Hover status maken, active status maken
+
+Woensdag
+- Animatie filmposter in de likes: +1 en -1 bij het likes lijstje/menutje
+- 2x menu (likes en genres) // (30min)
+
+
+To do met hulp
+- Menu fixed onderaan het scherm positioneren
+- Menu items met flex box positioneren zodat me code netter wordt
+- Radio button: bolletje onzichtbaar maken, kijken of het dan nog werkt?
 
 
 
