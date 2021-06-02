@@ -138,5 +138,38 @@ To do met hulp
 - Menu items met flex box positioneren zodat me code netter wordt
 - Radio button: bolletje onzichtbaar maken, kijken of het dan nog werkt?
 
+# Feedback gesprek 2 juni
+
+Vooraf van het feedback gesprek had ik voor mijzelf het overzichtje gemaakt, zodat ik nog weet wat ik deze week moet doen en waar ik hulp bij nodig heb.
+
+FvD
+
+Woensdag
+- Viewmodeknop: Hover status maken, active status maken: verander ik een foto in de html met js of kan dat ook met css
+- Viewmode list css schrijven
+
+
+Donderdag
+- Animatie filmposter in de likes: +1 en -1 bij het likes lijstje/menutje
+- 2x menu (likes en genres)
+
+To do met hulp
+- Menu fixed onderaan het scherm positioneren
+- Menu items met flex box positioneren zodat me code netter wordt
+- Radio button: bolletje onzichtbaar maken, kijken of het dan nog werkt?
+- Knoppen: active/hover/focus status maken: alleen nog bij de viewmodus
+- Menu like button van het menu stretched bij bepaalde grootte, waarom?
+- Like knop toevoegen: positioneren, hover/focus en active modus maken
+
+
+
+Vragen
+- Bronnen films: hoe deze te vermelden (in de HTML met comments? Of apart bestandje met apa bron vermelding?
+- Grid voor list items: hoe geef ik deze op de beste manier een margin vanaf de zijkanten? Ik hoopte dat dit vanuit een van de grid selecteren?
+- H2/P en button zitten “verstopt in mijn li”, hoe bouw ik dit vanuit hier weer goed op (ook zodat de image dus in een poster positie blijft
+- Regel 155: knop word niet zichtbaar en ik weet niet hoe ik het het best kan aanpakken
+- Mijn svgtjes van de viewmode(links boven) komen niet op GitHub, waarom eigenlijk?
+￼![image](https://user-images.githubusercontent.com/82438075/120483402-5bff8700-c3b2-11eb-97f7-c6ab9b07b1ff.png)
+
 
 
