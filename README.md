@@ -166,10 +166,11 @@ To do met hulp
 Vragen
 - Bronnen films: hoe deze te vermelden (in de HTML met comments? Of apart bestandje met apa bron vermelding?
 - Grid voor list items: hoe geef ik deze op de beste manier een margin vanaf de zijkanten? Ik hoopte dat dit vanuit een van de grid selecteren?
+￼![image](https://user-images.githubusercontent.com/82438075/120483402-5bff8700-c3b2-11eb-97f7-c6ab9b07b1ff.png)
 - H2/P en button zitten “verstopt in mijn li”, hoe bouw ik dit vanuit hier weer goed op (ook zodat de image dus in een poster positie blijft
 - Regel 155: knop word niet zichtbaar en ik weet niet hoe ik het het best kan aanpakken
 - Mijn svgtjes van de viewmode(links boven) komen niet op GitHub, waarom eigenlijk?
-￼![image](https://user-images.githubusercontent.com/82438075/120483402-5bff8700-c3b2-11eb-97f7-c6ab9b07b1ff.png)
+
 
 
 
